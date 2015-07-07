@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+
+- (IBAction)handleSwipe:(UIGestureRecognizer *)sender;
 
 @end
 
